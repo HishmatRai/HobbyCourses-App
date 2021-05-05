@@ -8,6 +8,10 @@ import Tasks from './Tasks/Tasks';
 import Inbox from './Inbox/Inbox';
 import Profiles from './Profiles/Profiles';
 import LeisureCourse from './LeisureCourse/LeisureCourse';
+import Photography from './Photography/Photography';
+import CoursesAttendance from './CoursesAttendance/CoursesAttendance';
+import ClassSessionList from './ClassSessionList/ClassSessionList';
+import ReportAttendance from './ReportAttendance/ReportAttendance';
 export{
     GetStarted,
     Login,
@@ -19,4 +23,8 @@ export{
     Inbox,
     Profiles,
     LeisureCourse,
+    Photography,
+    CoursesAttendance,
+    ClassSessionList,
+    ReportAttendance
 }
