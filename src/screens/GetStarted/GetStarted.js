@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View, Image, ScrollView, StatusBar } from 'react-native';
-export default function GetStarted() {
+export default function GetStarted(props) {
     return (
         <View style={styles.container}>
             {/* <<<<<<<< StatusBar >>>>>>>>> */}
@@ -18,7 +18,7 @@ export default function GetStarted() {
                     <Text style={styles._app_name}>Hobby Courses</Text>
                 </View>
             {/* ===============< >=============== */}
-            <TouchableOpacity style={styles._get_started_button}>
+            <TouchableOpacity style={styles._get_started_button} onPress={() => props.navigation.navigate("Login")}>
                 <Text style={styles._get_started_button_text}>Lets Get Started</Text>
             </TouchableOpacity>
             </ScrollView>
